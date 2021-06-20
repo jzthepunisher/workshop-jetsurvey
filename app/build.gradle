@@ -57,4 +57,7 @@ dependencies {
 
     implementation Libs.AndroidX.Compose.material
     implementation Libs.AndroidX.Compose.tooling
+
+    implementation Libs.AndroidX.Navigation.fragment
+    implementation Libs.AndroidX.Navigation.uiKtx
 }

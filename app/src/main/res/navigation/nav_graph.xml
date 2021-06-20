@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/sign_up_fragment">
+
+    <fragment
+        android:id="@+id/welcome_fragment"
+        android:name="com.example.workshop.jetsurvey.presentation.ui.welcome.WelcomeFragment"
+        android:label="WelcomeFragment" />
+    <fragment
+        android:id="@+id/sign_up_fragment"
+        android:name="com.example.workshop.jetsurvey.presentation.ui.sign.up.SignUpFragment"
+        android:label="SignUpFragment" />
+    <fragment
+        android:id="@+id/sign_in_fragment"
+        android:name="com.example.workshop.jetsurvey.presentation.ui.sign.in.SignInFragment"
+        android:label="SignInFragment" />
+    <fragment
+        android:id="@+id/survey_fragment"
+        android:name="com.example.workshop.jetsurvey.presentation.ui.survey.SurveyFragment"
+        android:label="SurveyFragment" />
+</navigation>

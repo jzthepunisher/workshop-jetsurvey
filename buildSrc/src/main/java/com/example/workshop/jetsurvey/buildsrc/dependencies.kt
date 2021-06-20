@@ -26,5 +26,11 @@ object Libs{
             private const val version = "1.3.0"
             const val material = "com.google.android.material:material:$version"
         }
+
+        object Navigation {
+            private const val version = "2.3.4"
+            const val fragment = "androidx.navigation:navigation-fragment-ktx:$version"
+            const val uiKtx = "androidx.navigation:navigation-ui-ktx:$version"
+        }
     }
 }
