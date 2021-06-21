@@ -24,8 +24,3 @@ class WelcomeFragment : Fragment() {
         }
     }
 }
-
-@Composable
-fun WelcomeScreen(){
-    Text(text = "Hola WelcomeScreen!" )
-}
