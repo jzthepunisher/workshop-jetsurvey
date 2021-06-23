@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Jetsurvey</string>
+    <string name="app_tagline">Mejores encuestas con Jetpack Compose</string>
+    <string name="sign_in_create_account">Inicia sesión o crea una cuenta</string>
+    <string name="email">Correo</string>
+    <string name="user_continue">CONTINUAR</string>
+    <string name="or">ó</string>
+    <string name="sign_in_guest">INICIAR SESIÓN COMO INVITADO</string>
 </resources>
